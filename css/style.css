@@ -1,0 +1,204 @@
+
+:root {
+    --primary-color: #f97316; /* orange-500 */
+    --primary-color-hover: #ea580c; /* orange-600 */
+    --primary-color-light: #fed7aa; /* orange-200 */
+    --font-serif: 'Lora', serif;
+    --font-sans: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fdf8f2;
+    background-image: radial-gradient(circle, #fdecdf 0%, #fdf8f2 100%);
+    font-family: var(--font-sans);
+}
+
+.dark body {
+    background-color: #1c1c1c;
+    background-image: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+}
+
+/* --- Animations --- */
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes cardFadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+@keyframes bobbing {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+.animated-icon:hover {
+    animation: bobbing 1s ease-in-out infinite;
+}
+
+
+/* Hero Section Animation */
+.hero-text {
+    animation: fadeIn 1.5s ease-out;
+}
+
+.feature-card {
+    animation: cardFadeIn 0.5s ease-out forwards;
+    opacity: 0; /* Start hidden */
+}
+
+/* Staggered animation delays */
+.feature-card-container > div:nth-child(1) .feature-card { animation-delay: 0.1s; }
+.feature-card-container > div:nth-child(2) .feature-card { animation-delay: 0.2s; }
+.feature-card-container > div:nth-child(3) .feature-card { animation-delay: 0.3s; }
+.feature-card-container > div:nth-child(4) .feature-card { animation-delay: 0.4s; }
+
+
+/* --- Components --- */
+
+.beta-badge {
+    @apply bg-orange-100 text-orange-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-orange-900 dark:text-orange-300;
+    vertical-align: middle;
+}
+
+.nav-link {
+    @apply block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 dark:text-white md:dark:hover:text-primary-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent;
+}
+
+.feature-card {
+    @apply block p-6 bg-white rounded-lg shadow-md dark:bg-gray-800 hover:shadow-xl transition-shadow duration-300 h-full;
+}
+
+.feature-icon-container {
+    @apply flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900 text-primary-600 dark:text-primary-300;
+}
+
+#dictionary-container .p-4 {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#dictionary-container .p-4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.game-card {
+    perspective: 1000px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.game-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.game-card.flipped .game-card-inner {
+    transform: rotateY(180deg);
+}
+
+.game-card-front,
+.game-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    border: 1px solid #e5e7eb; /* gray-200 */
+}
+
+.dark .game-card-front, .dark .game-card-back {
+    border-color: #4b5563; /* gray-600 */
+}
+
+.game-card-front {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.game-card-back {
+    background-color: #f3f4f6; /* bg-gray-100 */
+    color: #1f2937; /* text-gray-800 */
+    transform: rotateY(180deg);
+}
+
+.dark .game-card-back {
+    background-color: #374151; /* dark:bg-gray-700 */
+    color: white;
+}
+
+/* Overriding Flowbite's default blue color with our primary color */
+.bg-blue-700, .bg-primary-700 {
+    background-color: var(--primary-color) !important;
+}
+
+.hover\:bg-blue-800:hover, .hover\:bg-primary-800:hover {
+    background-color: var(--primary-color-hover) !important;
+}
+
+.focus\:ring-blue-300:focus, .focus\:ring-primary-300:focus {
+    --tw-ring-color: var(--primary-color-light) !important;
+}
+
+.dark .focus\:ring-blue-900:focus, .dark .focus\:ring-primary-900:focus {
+    --tw-ring-color: var(--primary-color) !important;
+}
+
+.text-blue-700, .text-primary-700 {
+    color: var(--primary-color) !important;
+}
+
+.md\:dark\:text-blue-500 {
+    color: var(--primary-color) !important;
+}
+
+.dark .bg-blue-900 {
+    background-color: var(--primary-color) !important;
+}
+
+.text-blue-600, .text-primary-600 {
+    color: var(--primary-color) !important;
+}
+
+.dark .text-blue-300 {
+    color: var(--primary-color) !important;
+}
+
+.focus\:ring-orange-200:focus {
+    --tw-ring-color: var(--primary-color-light) !important;
+}
+
+.hover\:bg-orange-100:hover {
+    background-color: #fff7ed !important; /* orange-50 */
+}
+
+.dark .hover\:bg-gray-800:hover {
+    background-color: #1f2937 !important; /* gray-800 */
+}
+
+/* Flowbite Tab Overrides */
+[data-tabs-toggle] button[aria-selected="true"] {
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}

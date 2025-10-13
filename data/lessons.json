@@ -1,0 +1,143 @@
+[
+    {
+        "level": "Básico",
+        "title": "Lección 1: Saludos y Despedidas",
+        "content": "Aprende las formas más comunes de saludar y despedirte en Náhuat.",
+        "vocabulary": [
+            { "nahuat": "Piali", "spanish": "Hola" },
+            { "nahuat": "Niltze", "spanish": "Hola (más formal)" },
+            { "nahuat": "Ken tinemi?", "spanish": "¿Cómo estás?" },
+            { "nahuat": "Weli ninemi", "spanish": "Estoy bien" },
+            { "nahuat": "Tashkalas", "spanish": "Gracias" },
+            { "nahuat": "Timunekit", "spanish": "Adiós (nos vemos)" },
+            { "nahuat": "Tiwelikan", "spanish": "Bienvenidos" }
+        ]
+    },
+    {
+        "level": "Básico",
+        "title": "Lección 2: Pronombres Personales",
+        "content": "Los pronombres que indican quién realiza la acción.",
+        "vocabulary": [
+            { "nahuat": "Naja", "spanish": "Yo" },
+            { "nahuat": "Taja", "spanish": "Tú" },
+            { "nahuat": "Yaja", "spanish": "Él / Ella" },
+            { "nahuat": "Tejemet", "spanish": "Nosotros" },
+            { "nahuat": "Anmejemet", "spanish": "Ustedes" },
+            { "nahuat": "Yejemet", "spanish": "Ellos / Ellas" }
+        ]
+    },
+    {
+        "level": "Básico",
+        "title": "Lección 3: Familiares",
+        "content": "Nombres para los miembros de la familia.",
+        "vocabulary": [
+            { "nahuat": "Nan", "spanish": "Mamá" },
+            { "nahuat": "Tah", "spanish": "Papá" },
+            { "nahuat": "Tata", "spanish": "Abuelo" },
+            { "nahuat": "Nana", "spanish": "Abuela" },
+            { "nahuat": "Kone", "spanish": "Hijo/a" },
+            { "nahuat": "Ikniw", "spanish": "Hermano/a" }
+        ]
+    },
+    {
+        "level": "Básico",
+        "title": "Lección 9: El Clima",
+        "content": "Palabras para describir el estado del tiempo.",
+        "vocabulary": [
+            { "nahuat": "Tunal", "spanish": "Sol / Día" },
+            { "nahuat": "Metzti", "spanish": "Luna" },
+            { "nahuat": "Sitima", "spanish": "Estrella" },
+            { "nahuat": "Mix", "spanish": "Nube" },
+            { "nahuat": "Ehekat", "spanish": "Viento" },
+            { "nahuat": "Kiyawit", "spanish": "Lluvia" }
+        ]
+    },
+    {
+        "level": "Intermedio",
+        "title": "Lección 4: Verbo Pia (Tener)",
+        "content": "Aprende a conjugar el verbo \"pia\" (tener) en tiempo presente.",
+        "vocabulary": [
+            { "nahuat": "Naja nikpia", "spanish": "Yo tengo" },
+            { "nahuat": "Taja tikpia", "spanish": "Tú tienes" },
+            { "nahuat": "Yaja kipia", "spanish": "Él/Ella tiene" },
+            { "nahuat": "Tejemet tikpiat", "spanish": "Nosotros tenemos" },
+            { "nahuat": "Anmejemet ankipiat", "spanish": "Ustedes tienen" },
+            { "nahuat": "Yejemet kipiat", "spanish": "Ellos/Ellas tienen" }
+        ]
+    },
+    {
+        "level": "Intermedio",
+        "title": "Lección 5: Verbo Neki (Querer)",
+        "content": "Aprende a conjugar el verbo \"neki\" (querer) en tiempo presente.",
+        "vocabulary": [
+            { "nahuat": "Naja nikneki", "spanish": "Yo quiero" },
+            { "nahuat": "Taja tikneki", "spanish": "Tú quieres" },
+            { "nahuat": "Yaja kineki", "spanish": "Él/Ella quiere" },
+            { "nahuat": "Tejemet tiknekit", "spanish": "Nosotros queremos" },
+            { "nahuat": "Anmejemet ankinekit", "spanish": "Ustedes quieren" },
+            { "nahuat": "Yejemet kinekit", "spanish": "Ellos/Ellas quieren" }
+        ]
+    },
+    {
+        "level": "Intermedio",
+        "title": "Lección 10: Verbo Yawi (Ir)",
+        "content": "Aprende a conjugar el verbo \"yawi\" (ir) en tiempo presente.",
+        "vocabulary": [
+            { "nahuat": "Naja niyawi", "spanish": "Yo voy" },
+            { "nahuat": "Taja tiyawi", "spanish": "Tú vas" },
+            { "nahuat": "Yaja yawi", "spanish": "Él/Ella va" },
+            { "nahuat": "Tejemet tiyawit", "spanish": "Nosotros vamos" },
+            { "nahuat": "Anmejemet anyawit", "spanish": "Ustedes van" },
+            { "nahuat": "Yejemet yawit", "spanish": "Ellos/Ellas van" }
+        ]
+    },
+    {
+        "level": "Intermedio",
+        "title": "Lección 6: Formando Preguntas Simples",
+        "content": "Aprende a usar palabras interrogativas para hacer preguntas.",
+        "vocabulary": [
+            { "nahuat": "Kan", "spanish": "Dónde" },
+            { "nahuat": "Ken", "spanish": "Cómo" },
+            { "nahuat": "Ak", "spanish": "Quién" },
+            { "nahuat": "Toni", "spanish": "Qué" },
+            { "nahuat": "Keman", "spanish": "Cuándo" }
+        ]
+    },
+    {
+        "level": "Avanzado",
+        "title": "Lección 7: Posesivos",
+        "content": "Aprende a indicar posesión. Se usan prefijos y sufijos. Ejemplo con \"chichi\" (perro).",
+        "vocabulary": [
+            { "nahuat": "nu-chichi", "spanish": "mi perro" },
+            { "nahuat": "mu-chichi", "spanish": "tu perro" },
+            { "nahuat": "i-chichi", "spanish": "su perro (de él/ella)" },
+            { "nahuat": "tu-chichi", "spanish": "nuestro perro" },
+            { "nahuat": "anmu-chichi", "spanish": "su perro (de ustedes)" },
+            { "nahuat": "in-chichi", "spanish": "su perro (de ellos/ellas)" }
+        ]
+    },
+    {
+        "level": "Avanzado",
+        "title": "Lección 8: Plurales",
+        "content": "La formación de plurales puede variar. El sufijo -met es común para seres animados.",
+        "vocabulary": [
+            { "nahuat": "taket", "spanish": "hombre" },
+            { "nahuat": "taketmet", "spanish": "hombres" },
+            { "nahuat": "siwat", "spanish": "mujer" },
+            { "nahuat": "siwatmet", "spanish": "mujeres" },
+            { "nahuat": "kone", "spanish": "niño" },
+            { "nahuat": "kunemet", "spanish": "niños" }
+        ]
+    },
+    {
+        "level": "Avanzado",
+        "title": "Lección 11: Construyendo Frases",
+        "content": "Ejemplos de cómo unir palabras para formar ideas completas.",
+        "vocabulary": [
+            { "nahuat": "Naja nikneki se at", "spanish": "Yo quiero un agua" },
+            { "nahuat": "Yaja kipia se mish", "spanish": "Él/Ella tiene un gato" },
+            { "nahuat": "Kan tiyawi?", "spanish": "¿A dónde vas?" },
+            { "nahuat": "Taja tikua nakat", "spanish": "Tú comes carne" }
+        ]
+    }
+]
