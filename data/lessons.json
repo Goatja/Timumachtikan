@@ -4,11 +4,11 @@
         "title": "Lección 1: Saludos y Despedidas",
         "content": "Aprende las formas más comunes de saludar y despedirte en Náhuat.",
         "vocabulary": [
-            { "nahuat": "Piali", "spanish": "Hola" },
+            { "nahuat": "Yek tunal", "spanish": "Hola" },
             { "nahuat": "Niltze", "spanish": "Hola (más formal)" },
             { "nahuat": "Ken tinemi?", "spanish": "¿Cómo estás?" },
             { "nahuat": "Weli ninemi", "spanish": "Estoy bien" },
-            { "nahuat": "Tashkalas", "spanish": "Gracias" },
+            { "nahuat": "Padiush", "spanish": "Gracias" },
             { "nahuat": "Timunekit", "spanish": "Adiós (nos vemos)" },
             { "nahuat": "Tiwelikan", "spanish": "Bienvenidos" }
         ]
@@ -32,10 +32,10 @@
         "content": "Nombres para los miembros de la familia.",
         "vocabulary": [
             { "nahuat": "Nan", "spanish": "Mamá" },
-            { "nahuat": "Tah", "spanish": "Papá" },
-            { "nahuat": "Tata", "spanish": "Abuelo" },
+            { "nahuat": "Tata", "spanish": "Papá" },
+            { "nahuat": "Tatanoy", "spanish": "Abuelo" },
             { "nahuat": "Nana", "spanish": "Abuela" },
-            { "nahuat": "Kone", "spanish": "Hijo/a" },
+            { "nahuat": "Kune", "spanish": "Hijo/a" },
             { "nahuat": "Ikniw", "spanish": "Hermano/a" }
         ]
     },
