@@ -41,7 +41,7 @@
     },
     {
         "level": "Básico",
-        "title": "Lección 9: El Clima",
+        "title": "Lección 4: El Clima",
         "content": "Palabras para describir el estado del tiempo.",
         "vocabulary": [
             { "nahuat": "Tunal", "spanish": "Sol / Día" },
@@ -53,8 +53,93 @@
         ]
     },
     {
+    "level": "Básico",
+    "title": "Lección 5: Cómo te llamas?",
+    "content": "Aprender a usar pronombres y decir o preguntar cómo se llama una persona.",
+    "vocabulary": [
+        { "nahuat": "Ken mutukay?", "spanish": "¿Cómo te llamas?" },
+        { "nahuat": "Nutukay", "spanish": "Mi nombre / Me llamo" },
+        { "nahuat": "Mutukay", "spanish": "Tu nombre / Te llamas" },
+        { "nahuat": "Itukay", "spanish": "Su nombre / Se llama" },
+        { "nahuat": "Naja", "spanish": "Yo" },
+        { "nahuat": "Taja", "spanish": "Tú" },
+        { "nahuat": "Yaja", "spanish": "Él / Ella" },
+        { "nahuat": "Tamachtiani", "spanish": "Profesor / Maestra" },
+        { "nahuat": "Ini", "spanish": "Este / Esta / Esto" },
+        { "nahuat": "Ne", "spanish": "El / La" }
+    ]
+},
+{
+    "level": "Básico",
+    "title": "Lección 6: Este es el profesor",
+    "content": "Aprender a construir frases con el verbo ser, artículos y demostrativos.",
+    "vocabulary": [
+        { "nahuat": "Ini ne tamachtiani", "spanish": "Este es el profesor" },
+        { "nahuat": "Itukay Cecilia", "spanish": "Se llama Cecilia" },
+        { "nahuat": "Yaja se siwat", "spanish": "Ella es una mujer" },
+        { "nahuat": "Se", "spanish": "Un / Una" },
+        { "nahuat": "Ne", "spanish": "El / La" },
+        { "nahuat": "Nusan", "spanish": "También" },
+        { "nahuat": "Takat", "spanish": "Hombre" },
+        { "nahuat": "Siwat", "spanish": "Mujer" },
+        { "nahuat": "Piltzin", "spanish": "Muchachito" },
+        { "nahuat": "Siwapiltzin", "spanish": "Muchachita" }
+    ]
+},
+{
+    "level": "Básico",
+    "title": "Lección 7: Tay tikneki?",
+    "content": "Aprender a usar números, formar plurales y pedir o comprar cosas.",
+    "vocabulary": [
+        { "nahuat": "Tay tikneki?", "spanish": "¿Qué quiere?" },
+        { "nahuat": "Shinechmaka", "spanish": "Dame / Deme" },
+        { "nahuat": "Se", "spanish": "Uno / Un / Una" },
+        { "nahuat": "Ume", "spanish": "Dos" },
+        { "nahuat": "Yey", "spanish": "Tres" },
+        { "nahuat": "Tamal", "spanish": "Tortilla" },
+        { "nahuat": "Awakat", "spanish": "Aguacate" },
+        { "nahuat": "Elut", "spanish": "Elote" },
+        { "nahuat": "Tumat", "spanish": "Tomate" },
+        { "nahuat": "Chil", "spanish": "Chile" },
+        { "nahuat": "Pula", "spanish": "Plátano" }
+    ]
+},
+{
+    "level": "Básico",
+    "title": "Lección 8: E / Te - Sí y No",
+    "content": "Aprender a responder afirmativa o negativamente en náhuat.",
+    "vocabulary": [
+        { "nahuat": "E", "spanish": "Sí" },
+        { "nahuat": "Eje / Aja", "spanish": "Así es / Sí" },
+        { "nahuat": "Te", "spanish": "No" },
+        { "nahuat": "Inte", "spanish": "No (formal)" },
+        { "nahuat": "Kia", "spanish": "Así es (confirmación)" },
+        { "nahuat": "Walaj", "spanish": "Vino / Llegó" },
+        { "nahuat": "Tinemi yek?", "spanish": "¿Está usted bien?" },
+        { "nahuat": "Ninemi yek", "spanish": "Estoy bien" }
+    ]
+},
+{
+    "level": "Básico",
+    "title": "Lección 9: Numerales y conteo",
+    "content": "Aprender los números básicos del 1 al 10 en náhuat.",
+    "vocabulary": [
+        { "nahuat": "Se", "spanish": "Uno" },
+        { "nahuat": "Ume", "spanish": "Dos" },
+        { "nahuat": "Yey", "spanish": "Tres" },
+        { "nahuat": "Nawi", "spanish": "Cuatro" },
+        { "nahuat": "Makuili", "spanish": "Cinco" },
+        { "nahuat": "Chikuase", "spanish": "Seis" },
+        { "nahuat": "Chikome", "spanish": "Siete" },
+        { "nahuat": "Chikueyi", "spanish": "Ocho" },
+        { "nahuat": "Chiknawi", "spanish": "Nueve" },
+        { "nahuat": "Matlaktli", "spanish": "Diez" }
+    ]
+},
+
+    {
         "level": "Intermedio",
-        "title": "Lección 4: Verbo Pia (Tener)",
+        "title": "Lección 1: Verbo Pia (Tener)",
         "content": "Aprende a conjugar el verbo \"pia\" (tener) en tiempo presente.",
         "vocabulary": [
             { "nahuat": "Naja nikpia", "spanish": "Yo tengo" },
@@ -67,7 +152,7 @@
     },
     {
         "level": "Intermedio",
-        "title": "Lección 5: Verbo Neki (Querer)",
+        "title": "Lección 2: Verbo Neki (Querer)",
         "content": "Aprende a conjugar el verbo \"neki\" (querer) en tiempo presente.",
         "vocabulary": [
             { "nahuat": "Naja nikneki", "spanish": "Yo quiero" },
@@ -80,7 +165,7 @@
     },
     {
         "level": "Intermedio",
-        "title": "Lección 10: Verbo Yawi (Ir)",
+        "title": "Lección 3: Verbo Yawi (Ir)",
         "content": "Aprende a conjugar el verbo \"yawi\" (ir) en tiempo presente.",
         "vocabulary": [
             { "nahuat": "Naja niyawi", "spanish": "Yo voy" },
@@ -93,7 +178,7 @@
     },
     {
         "level": "Intermedio",
-        "title": "Lección 6: Formando Preguntas Simples",
+        "title": "Lección 4: Formando Preguntas Simples",
         "content": "Aprende a usar palabras interrogativas para hacer preguntas.",
         "vocabulary": [
             { "nahuat": "Kan", "spanish": "Dónde" },
@@ -105,7 +190,7 @@
     },
     {
         "level": "Avanzado",
-        "title": "Lección 7: Posesivos",
+        "title": "Lección 1: Posesivos",
         "content": "Aprende a indicar posesión. Se usan prefijos y sufijos. Ejemplo con \"chichi\" (perro).",
         "vocabulary": [
             { "nahuat": "nu-chichi", "spanish": "mi perro" },
@@ -118,7 +203,7 @@
     },
     {
         "level": "Avanzado",
-        "title": "Lección 8: Plurales",
+        "title": "Lección 2: Plurales",
         "content": "La formación de plurales puede variar. El sufijo -met es común para seres animados.",
         "vocabulary": [
             { "nahuat": "taket", "spanish": "hombre" },
@@ -131,7 +216,7 @@
     },
     {
         "level": "Avanzado",
-        "title": "Lección 11: Construyendo Frases",
+        "title": "Lección 3: Construyendo Frases",
         "content": "Ejemplos de cómo unir palabras para formar ideas completas.",
         "vocabulary": [
             { "nahuat": "Naja nikneki se at", "spanish": "Yo quiero un agua" },
